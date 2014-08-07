@@ -1,11 +1,10 @@
 \name{religionModify}
 \alias{religionModify}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-%%  ~~function to modify gss file for religion analysis ~~
-}
+\title{ ~~function to modify gss file for religion analysis ~~}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+This will select only religion variables and convert all labels to upper case
+it will then [optionally] create an rda files
 }
 \usage{
 religionModify(df, savedf = "")
@@ -13,28 +12,18 @@ religionModify(df, savedf = "")
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{df}{
-%%     ~~Describe \code{df} here~~
+original data fame
 }
   \item{savedf}{
-%%     ~~Describe \code{savedf} here~~
+name of file to output if present
 }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
+\details{}
+\value{ modifed data frame }
 \references{
 %% ~put references to the literature/web site here ~
 }
-\author{
-%%  ~~who you are~~
-}
+\author{randywreed@gmail.com}
 \note{
 %%  ~~further notes~~
 }
