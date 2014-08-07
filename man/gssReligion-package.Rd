@@ -3,12 +3,10 @@
 \alias{gssReligion}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+~~ Modify Gss for Religion ~~
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+~~ This package will make changes to GSS data approriate for religion analysis ~~
 }
 \details{
 \tabular{ll}{
@@ -21,10 +19,7 @@ License: \tab What license is it under?\cr
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-Who wrote it
-
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+~~ randywreed@gmail.com ~~
 }
 \references{
 ~~ Literature or other references for background information ~~
@@ -37,5 +32,5 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
+~~ religionModify(df,"new_rda_name.rda") ~~
 }
