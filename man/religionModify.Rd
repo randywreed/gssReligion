@@ -1,6 +1,5 @@
 \name{religionModify}
 \alias{religionModify}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ ~~function to modify gss file for religion analysis ~~}
 \description{
 This will select only religion variables and convert all labels to upper case
